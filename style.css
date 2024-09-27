@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 80px;
+    background-color: #edeef9;
+    font-family: "oswald", sans-serif;
+}
+header {
+    height: 300px;
+    display: flex;   
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    position: relative;
+    height: 100%;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    gap: 48px;
+    font-size: 32px;
+    margin-top: 10px;
+    position: absolute;
+    top: 5px;
+}
+
+
+
+.logotipo {
+    height: 100px;
+    width: 300px;
+    background-color: #edeef9;
+    background-image: url("./img/Logo_NIKE.svg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    align-items:start;
+    top: 75px;
+}
+
+.botao1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 100px;
+    top: 75px;
+}
+.carrinho{
+    height: 50px;
+    width: 50px;
+    background-color: #edeef9;
+    background-image: url("./img/cartcompra.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    align-items:end;
+    top: 75px;
+    left: 1448px;
+}
+.lupa{
+    height: 40px;
+    width: 40px;
+    background-color: #edeef9;
+    background-image: url("./img/lupa2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    align-items:end;
+    top: 80px;
+    left: 1390px;
+}
+
+
+
+main{
+    flex-grow: 1;
+    display: flex;
+    background-color:white;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+
+footer{
+    height: 50px;
+    display: flex;
+    background-color: brown;
+}
+
