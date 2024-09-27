@@ -24,7 +24,8 @@ body{
 }
 header {
     height: 300px;
-    display: flex;   
+    display: flex;
+    background-color: tomato;   
 }
 
 .menu {
@@ -110,6 +111,10 @@ main{
     background-color:white;
     border-radius: 10px;
     position: relative;
+}
+
+.titulo{
+    font-size: 80px;
 }
 
 
