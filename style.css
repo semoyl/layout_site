@@ -124,6 +124,20 @@ main{
 }
 .titulo span{
     text-align: center;
+    font-style: bold;
+}
+
+.imagemGrande{
+    height: 900px;
+    width: 900px;
+    transform: rotate(-20deg);
+    top: -10%;
+    left: -15%;
+    position: absolute;
+    background-image: url(./img/download.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
