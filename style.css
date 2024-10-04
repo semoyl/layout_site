@@ -153,11 +153,35 @@ main{
     z-index: 1;
 }
 
+.esquerda{
+    width: 50%;
+    height: 100%;
+}
+.direita{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    background-color: orangered;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+.direita h3{
+    top: 30%;
+    font-size: 46px;
+}
+.direita h2{
+    font-style: bold;
+    font-size: 100px ;
+}
+.direita h4{
+    font-size: 20px;
+    width: 60%;
+}
 
 
 footer{
     height: 50px;
     display: flex;
-    background-color: brown;
 }
 
