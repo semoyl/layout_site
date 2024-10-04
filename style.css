@@ -132,12 +132,25 @@ main{
     width: 900px;
     transform: rotate(-20deg);
     top: -10%;
-    left: -15%;
+    left: -12%;
     position: absolute;
     background-image: url(./img/download.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+.imagemPequeterruxa{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: -2%;
+    left: 2%;
+    transform: rotate(-20deg);
+    background-image: url(./img/teniscor2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
 }
 
 
