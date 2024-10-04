@@ -21,11 +21,11 @@ body{
     padding-inline: 80px;
     background-color: #edeef9;
     font-family: "oswald", sans-serif;
+    position: relative;
 }
 header {
     height: 300px;
-    display: flex;
-    background-color: tomato;   
+    display: flex; 
 }
 
 .menu {
@@ -114,7 +114,16 @@ main{
 }
 
 .titulo{
-    font-size: 80px;
+    font-size: 185px;
+    opacity: 0.1;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
+    align-items: center;
+}
+.titulo span{
+    text-align: center;
 }
 
 
